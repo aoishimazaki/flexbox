@@ -1,0 +1,39 @@
+
+/* セレクター */
+*{
+    /* プロパティ　値 */
+    padding: 0;
+    margin: 0;
+}
+
+/* コンテナーの親要素に対しての値１００ */
+.container{
+ width: 100%;
+ height: 500px;
+ border: 1px solid black;
+
+ display: flex;
+  /* flex-direction: row; */
+  /* flex-direction: column; */
+
+  /* 左右に対してのセンター */
+  /* flexdirectionがrowの時は意味が逆になる（たて） */
+
+
+  /* space-evenly; 全て均等*/
+  /* space-around　両端の隙間が各要素の隙間の半分 */
+  /* pace-between 　両端の隙間がなし */
+  justify-content: space-between;
+
+  /* 上下左右に対してセンター */
+  align-items: center; 
+
+
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+
+}
